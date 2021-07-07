@@ -1,0 +1,18 @@
+pragma solidity ^0.4.25; // we are telling which version to use
+// program to undertsnad difference between pure and public keyword
+contract abc{
+    uint8 a =10;
+ 
+    
+    function getValueofabcpub()public view returns(uint8){
+        return (a);
+        // view means a b c values are just being copied and returned.
+        // pure does not alter any of the parameter
+    }
+    function add(uint8 b,uint8 c)public pure returns (uint8){
+        uint8 d = b +c;
+        return d;
+        // this fucntion is using only local variables and using them
+        // a is a global variable and is not being used
+    }
+}
