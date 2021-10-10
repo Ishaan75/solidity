@@ -1,1 +1,1 @@
-In this repository , I had compiled the learning of Solidity Programming langauge with the codes so that one can practice besides learning. 
+In this repository , I had compiled the learning of Solidity Programming langauge with the codes so that one can practice besides learning. Based on my learning , I have desgined an auction smart contract which deals with the transactions of ethers on ethereum blockchain.
